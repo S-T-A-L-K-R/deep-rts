@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(DeepRTS VERSION 1.1.0 LANGUAGES CXX)
 
-
+set(pybind11_DIR /usr/local/lib/python3.8/dist-packages/pybind11/share/cmake/pybind11)
 set(BUILD_DOCS "OFF" CACHE STRING "Helpstring")
 SET(ENABLE_LOCK "ON" CACHE STRING "If locking of cmake setup should be enabled. this should be disabled for third party builds.")
 set(PYBIND11_FINDPYTHON "OFF")
