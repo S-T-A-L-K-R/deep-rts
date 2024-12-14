@@ -120,10 +120,10 @@ class CMakeBuild(build_ext):
 
 setup(
     name='DeepRTS',
-    author='Per-Arne Andersen',
+    # author='Per-Arne Andersen',
     author_email='per@sysx.no',
     url='https://github.com/cair/deep-rts',
-    description='A Real-Time-Strategy game for Deep Learning research ',
+    # description='A Real-Time-Strategy game for Deep Learning research ',
     long_description='',
     include_package_data=True,
     packages=find_packages(
@@ -137,6 +137,6 @@ setup(
     cmdclass=dict(
         build_ext=CMakeBuild,
     ),
-    install_requires=['numpy'],
+    # install_requires=['numpy'],
     zip_safe=False,
 )

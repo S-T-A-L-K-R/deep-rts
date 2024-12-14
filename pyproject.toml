@@ -2,6 +2,8 @@
 requires-python = ">=3.8"
 name = "deep-rts"
 version = "0.1.0"
+description = 'A Real-Time-Strategy game for Deep Learning research'
+
 
 [build-system]
 requires = [
