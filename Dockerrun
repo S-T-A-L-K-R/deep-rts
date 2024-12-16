@@ -1,0 +1,2 @@
+docker run --rm -v $(pwd)/coding:/drts/coding stalkr/drts:0.1 python3 /drts/coding/main.py
+docker run --rm -v $(pwd)/coding:/drts/coding stalkr/drts:0.1 ls -la /drts/coding

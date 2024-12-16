@@ -29,9 +29,10 @@ WORKDIR /
 # RUN git clone https://github.com/UIA-CAIR/DeepRTS.git drts --recurse-submodules
 COPY . drts
 RUN git config --global --add safe.directory /drts
+RUN pip install --upgrade pip setuptools wheel
 RUN pip3 install -r /drts/requirements.txt
 # RUN vcpkg update
-RUN pip3 install -e drts
+RUN pip3 install /drts
 # -v /tmp/.X11-unix:/tmp/.X11-unix
 # RUN cat drts/coding/requirements.txt | xargs -n 1 pip3 install; exit 0
 # RUN cat drts/requirements.txt | xargs -n 1 pip3 install; exit 0

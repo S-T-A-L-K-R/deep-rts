@@ -121,7 +121,7 @@ class CMakeBuild(build_ext):
 setup(
     name='DeepRTS',
     # author='Per-Arne Andersen',
-    author_email='per@sysx.no',
+    # author_email='per@sysx.no',
     url='https://github.com/cair/deep-rts',
     # description='A Real-Time-Strategy game for Deep Learning research ',
     long_description='',
